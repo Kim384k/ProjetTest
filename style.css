@@ -150,6 +150,7 @@ footer {
 @media (max-width: 600px) {
     body {
         padding: 10px;
+        font-size: 0.7rem;
     }
 
     h1 {
@@ -157,10 +158,32 @@ footer {
     }
 
     h2 {
-        font-size: 1.3rem;
+        text-align: center;
+        font-size: 1.2rem;
+        width: 100%;
     }
 
     h4 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+    
+    .button-container {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .button {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .button i {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    button:hover {
+        align-items: center;
+        max-width: 100%;
     }
 }
