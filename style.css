@@ -147,10 +147,11 @@ footer {
     border-top: 1px solid #0a3017;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
     body {
         padding: 10px;
         font-size: 0.7rem;
+        width: 100%;
     }
 
     h1 {
